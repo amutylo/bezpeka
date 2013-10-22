@@ -27,6 +27,7 @@ Route::group(array('before' => 'un_auth'), function(){
 Route::group(array('before' => 'admin.auth'), function(){
     Route::get('dashboard', array('as' => 'login.dashboard', 'uses' => 'LoginController@dashboard'));
     Route::resource('roles', 'RolesController');
+    Route::resource('users', 'UsersController');
 
 });
 Route::filter('admin.auth', function(){
