@@ -1,0 +1,426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Red",
+				"Redirect	Laravel: Redirect::to()"
+			],
+			[
+				"admin",
+				"adminPage"
+			],
+			[
+				"off",
+				"offset	.offset"
+			],
+			[
+				"app",
+				"app_path"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"fla",
+				"flashNoticeExist"
+			],
+			[
+				"flas",
+				"flash"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"c",
+				"close"
+			],
+			[
+				"ttile",
+				"title"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"is_",
+				"is_array"
+			],
+			[
+				"lama",
+				"lamarkFound"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"prov",
+				"prov_tag"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"addre",
+				"address"
+			],
+			[
+				"addres",
+				"address_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"laravel Arti",
+				"Laravel Artisan: Help"
+			]
+		],
+		"width": 714.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/www/projects/bezpeka/app/database/seeds/DatabaseSeeder.php",
+		"/C/www/projects/bezpeka/composer.json",
+		"/C/www/projects/bezpeka/app/database/seeds/UserSeeder.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_143346_add_active_column_to_users_table.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_135532_add_foreign_id_to_userprofile_table.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_132921_create_users_table.php",
+		"/C/Users/andrem/Downloads/habrahabr-master/bootstrap/autoload.php",
+		"/C/www/projects/bezpeka/vendor/autoload.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_10_01_122106_create_user_profile_table.php",
+		"/C/www/projects/bezpeka/app/views/layouts/scaffold.blade.php",
+		"/C/www/projects/bezpeka/app/tests/controllers/RolesTest.php",
+		"/C/www/projects/bezpeka/app/models/Role.php",
+		"/C/www/projects/bezpeka/app/database/seeds/RolesTableSeeder.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_130408_create_roles_table.php",
+		"/C/www/projects/bezpeka/app/controllers/RolesController.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_09_05_131144_CreateUserTable.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_130053_create_role_user_table.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_09_30_140124_create_products_attributes_table.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_09_30_133107_create_catalog_table.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_09_30_130158_create_products_table.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_125254_create_roles_table.php",
+		"/C/www/projects/bezpeka/app/database/seeds/CatalogSeeder.php",
+		"/C/www/projects/clickfuel-0815.lc/system/logs/db_error_log-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/db_error_log-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_ga_mdl-2013-10-03.php",
+		"/C/Users/andrem/Downloads/ClickFuelMailCredentials.txt",
+		"/C/www/projects/bezpeka/app/config/database.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_agencyUtil-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_AgencyData-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_result_id-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_count-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_agency_util-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_getLogo-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_logoImg-2013-10-03.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_result-2013-10-02.php",
+		"/C/Users/andrem/Downloads/tuts plus premium coupon .txt",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_agency_util-2013-10-02.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_agencyUtil-2013-10-02.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/debug_log_agency_mdl-2013-10-02.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/log-2013-10-02.php",
+		"/C/www/projects/clickfuel-1017.lc/system/logs/db_error_log-2013-10-02.php",
+		"/C/www/projects/bezpeka/app/views/partials/login.blade.php",
+		"/C/www/projects/bezpeka/app/views/layouts/default.blade.php",
+		"/C/www/projects/bezpeka/public/assets/js/custom.js",
+		"/C/www/projects/bezpeka/app/views/profile.blade.php",
+		"/C/www/projects/bezpeka/app/controllers/UsersController.php",
+		"/C/www/projects/bezpeka/app/views/admin-page.blade.php",
+		"/C/www/projects/bezpeka/app/routes.php",
+		"/C/Users/andrem/Downloads/getAgency.log",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_09_30_132625_create_products_table.php",
+		"/C/www/projects/bezpeka/app/database/migrations/2013_09_30_125933_products.php",
+		"/C/www/projects/clickfuel-0815.lc/js/_ajax_requests_js.js",
+		"/C/www/projects/bezpeka/app/views/home.blade.php",
+		"/C/www/projects/bezpeka/app/storage/logs/log-apache2handler-2013-09-20.txt",
+		"/C/www/projects/bezpeka/app/models/User.php",
+		"/C/www/projects/clickfuel.lc/system/application/views/campaigns_email_tab.php",
+		"/C/Users/andrem/Downloads/lamarkMediaData.txt",
+		"/C/www/projects/bezpeka/app/views/partials/carousel.blade.php",
+		"/C/www/projects/bezpeka/app/views/partials/header.blade.php",
+		"/C/www/projects/bezpeka/app/views/contacts.blade.php",
+		"/C/www/projects/bezpeka/app/views/about-us.blade.php",
+		"/C/www/projects/bezpeka/app/controllers/HomeController.php",
+		"/C/www/projects/bezpeka/app/filters.php",
+		"/C/www/projects/bezpeka/app/views/partials/footer-scripts.blade.php",
+		"/C/www/projects/bezpeka/public/assets/css/custom.css",
+		"/C/www/projects/bezpeka/app/storage/logs/log-apache2handler-2013-09-19.txt",
+		"/C/www/projects/clickfuel-trunk/system/logs/oads_campaign_data-2013-09-19.php",
+		"/C/www/projects/clickfuel-trunk/system/logs/oads_advertisers_list-2013-09-19.php",
+		"/C/www/projects/laravel/application/controllers/home.php",
+		"/C/www/projects/laravel/application/routes.php",
+		"/C/www/projects/bezpeka/app/storage/logs/log-apache2handler-2013-09-10.txt",
+		"/C/www/projects/laravel/application/views/home/index.blade.php",
+		"/C/www/projects/laravel/public/js/bootstrap-ajax.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/andrem/Downloads/laravel-ajax-example-master/application/routes.php",
+		"/C/Apache/conf/httpd.conf",
+		"/C/www/projects/bezpeka/app/views/partials/login.blade_old.php",
+		"/C/www/projects/bezpeka/app/views/partials/footer.blade.php",
+		"/C/Users/andrem/Downloads/clickfuel_code.php",
+		"/C/Users/andrem/Downloads/clickfuel/LANMARK PROVIDER explanation.txt",
+		"/C/Users/andrem/Downloads/clickfuel/code.php",
+		"/C/Users/andrem/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/andrem/AppData/Roaming/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Sublime Text.cheatsheet",
+		"/C/www/projects/bezpeka/artisan",
+		"/C/www/projects/bezpeka/server.php",
+		"/C/Users/andrem/AppData/Roaming/Sublime Text 3/Packages/StatusBarExtension/StatusBarExtension.sublime-settings",
+		"/C/Users/andrem/Downloads/tutorial-laravel-4-authentication-master/app/database/seeds/UserSeeder.php",
+		"/C/www/projects/bezpeka/app/config/auth.php",
+		"/C/www/projects/bezpeka/app/database/seeds/ProductsTableSeeder.php",
+		"/C/Users/andrem/AppData/Local/Temp/WPDNSE/{000003A2-0001-0001-0000-000000000000}/lastTopAppId.txt",
+		"/C/www/projects/bezpeka/app/views/partials/about-us.blade.php",
+		"/C/Users/andrem/Downloads/Laravel-4-Bootstrap-Starter-Site-master/app/controllers/BlogController.php",
+		"/C/Users/andrem/Downloads/Laravel-4-Bootstrap-Starter-Site-master/app/controllers/BaseController.php",
+		"/C/www/projects/clickfuel.lc/xrms/storage/modules/sm_oads_my.php",
+		"/C/www/projects/clickfuel.lc/system/logs/oads-2013-09-04.php",
+		"/C/www/projects/clickfuel.lc/xrms/storage/modules/sm_oads.php",
+		"/C/Users/andrem/Downloads/snippets/из даты вычесть 1 день.php",
+		"/C/Users/andrem/Downloads/remove feed.sql",
+		"/C/www/projects/clickfuel.lc/system/application/controllers/feeds.php",
+		"/C/www/projects/clickfuel.lc/system/logs/profiler--feeds-urgent_run-get_provider_data-display_open_adstream-log-2013-09-04.php",
+		"/C/www/projects/clickfuel.lc/system/logs/debug_log_Feeds-2013-09-04.php",
+		"/C/www/projects/clickfuel.lc/system/logs/oads-2013-09-03.php",
+		"/D/YandexDisk/Рейтинг банков Квестора.txt",
+		"/C/www/projects/clickfuel.lc/system/logs/dates_period-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/system/logs/profiler--feeds-urgent_run-get_provider_data-display_open_adstream-log-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/system/logs/profiler--feeds-get_provider_data-display_open_adstream-log-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/system/logs/debug_log-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/system/logs/log-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/system/logs/debug_log_agency-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/xrms/storage/modules/sm_lamark.php",
+		"/C/www/projects/clickfuel.lc/system/logs/feeds-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/system/logs/debug_log__Client_setupsave_credentials-2013-09-03.php",
+		"/C/www/projects/clickfuel.lc/system/application/config/clickfuel.php",
+		"/C/Users/andrem/Downloads/90url_request_script.php",
+		"/C/Users/andrem/Downloads/set_report_inbterval.php",
+		"/C/www/projects/clickfuel.lc/system/application/config/feeds/DisplayOpenAdStreamFeed.php",
+		"/C/Users/andrem/Downloads/data_parsing.oads.php",
+		"/C/www/projects/clickfuel.lc/js/_reports_graph.js",
+		"/C/www/projects/clickfuel.lc/js/_reports.js",
+		"/C/www/projects/clickfuel.lc/system/logs/oads-2013-08-23.php",
+		"/C/Windows/System32/drivers/etc/hosts.BackupByTuneUpPortable",
+		"/C/Users/andrem/Downloads/clickfuel/list fields lamark.txt",
+		"/C/www/projects/clickfuel.lc/system/logs/columns-2013-07-23.php",
+		"/C/Users/andrem/Downloads/Email_Report_2013_07_23_04_56.csv",
+		"/C/www/projects/clickfuel.lc/system/application/views/campaigns_email_subtab_old.php",
+		"/C/www/projects/clickfuel.lc/system/application/views/campaigns_email_subtab.php",
+		"/C/www/projects/clickfuel.lc/system/application/controllers/campaigns.php",
+		"/C/www/projects/clickfuel.lc/system/application/config/feeds/constants.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"<project>",
+			"C:\\www\\projects\\clickfuel.lc"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"compiled",
+			"carbon",
+			"form",
+			"var",
+			"get-report",
+			"$_POST['report_interval']",
+			"_getAdvertisers",
+			"_getCampaign",
+			"\"",
+			"Dark",
+			"false",
+			"Bounces",
+			"condition",
+			"Received",
+			"campaign_email_subtab",
+			"campaigns_summary_tab",
+			"campaigns_header_bar",
+			"Add New Group",
+			"Click on Column Heading to Sort Table",
+			"campaigns_header_bar",
+			"campaign_alert",
+			"Campaign Details",
+			"my-content",
+			"':\n",
+			";",
+			"index",
+			"dateCondition"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"project": "bezpeka.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"campaign_email",
+				"system\\application\\views\\campaigns_email_subtab.php"
+			],
+			[
+				"xrmsfeed",
+				"system\\application\\models\\feeds\\xrmsFeedGenericMdl.php"
+			],
+			[
+				"feeds",
+				"system\\application\\datamodels\\feeds\\XrmsFeedScheduler.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\www\\projects\\clickfuel-0815.lc\\clickfuel-0815.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 377.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
