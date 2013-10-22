@@ -12,6 +12,8 @@
 */
 
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
+Route::get('catalog', array('as' => 'catalog', 'uses' => 'CatalogController@index'));
+Route::get('about_us', array('as' => 'about_us', 'uses' => 'HomeController@about_us'));
 
 Route::get('logout', array('as' => 'login.logout', 'uses' => 'LoginController@logout'));
 Route::group(array('before' => 'un_auth'), function(){

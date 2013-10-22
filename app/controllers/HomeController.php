@@ -15,6 +15,13 @@ class HomeController extends BaseController {
         return View::make('home.index', $data);
 	}
 
+	public function about_us(){
+		$data = array(
+			'title' => 'BEZPEKA SITE'
+			);
+        return View::make('home.about_us', $data);
+	}
+
 	// /**
 	//  * Show the form for creating a new resource.
 	//  *

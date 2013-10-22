@@ -16,11 +16,12 @@
 	<body>
 
 		<div class="container">
-		<ul class="nav nav-pils">
-			<li>{{ link_to_route('home', 'Главная')}}</li>
-			<li>Каталог</li>
-			<li>Контакты</li>
+		<ul class="nav nav-pills">
+			<li>{{ link_to_route('home', 'Главная') }}</li>
+			<li>{{ link_to_route('catalog', 'Каталог') }}</li>
+			<li>{{link_to_route('about_us', 'О нас') }}</li>
 			<li>{{ link_to_route('login.dashboard', 'Админка')}}</li>
+			<li>{{ link_to_route('users.index', 'Пользователи') }}</li>
 			<li class="pull-right">{{ link_to_route('login.logout', 'Logout') }}</li>
 		</ul>
 			@if (Session::has('message'))
