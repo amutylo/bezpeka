@@ -29,7 +29,7 @@ Route::group(array('before' => 'admin.auth'), function(){
     Route::get('dashboard', function(){
         return View::make('login.dashboard');
     });
-    Route::resourse('roles', 'RolesController');
+    Route::resource('roles', 'RolesController');
 
 });
 Route::filter('admin.auth', function(){
@@ -38,8 +38,7 @@ Route::filter('admin.auth', function(){
     }
 });
 Route::filter('un_auth', function(){
-    if(!Auth::guest){
+    if(!Auth::guest()){
         Auth::logout();
     }
 });
-Route::resource('roles', 'RolesController');
