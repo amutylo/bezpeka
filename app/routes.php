@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
 
 Route::get('logout', array('as' => 'login.logout', 'uses' => 'LoginController@logout'));
 Route::group(array('before' => 'un_auth'), function(){
@@ -26,9 +23,7 @@ Route::group(array('before' => 'un_auth'), function(){
 
 // для всех маршрутов внутри будет прим фильтр 'admin.auth' проверяться на логин
 Route::group(array('before' => 'admin.auth'), function(){
-    Route::get('dashboard', function(){
-        return View::make('login.dashboard');
-    });
+    Route::get('dashboard', array('as' => 'login.dashboard', 'uses' => 'LoginController@dashboard'));
     Route::resource('roles', 'RolesController');
 
 });

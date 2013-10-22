@@ -114,4 +114,8 @@ class LoginController extends BaseController {
 		Auth::logout();
 		return Redirect::home()->with('message','Надеемся встретится вновь!');
 	}
+
+	public function dashboard(){
+		return View::make('login.dashboard');
+	}
 }
