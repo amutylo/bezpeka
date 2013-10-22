@@ -20,6 +20,7 @@
 			<li>{{ link_to_route('home', 'Главная')}}</li>
 			<li>Каталог</li>
 			<li>Контакты</li>
+			<li>{{ link_to_route('login.dashboard', 'Админка')}}</li>
 			<li class="pull-right">{{ link_to_route('login.logout', 'Logout') }}</li>
 		</ul>
 			@if (Session::has('message'))
