@@ -5,6 +5,7 @@
 <h1>Создать пользователя</h1>
 
 {{ Form::open(array('users' => 'users.store')) }}
+
     <ul>
         <li>
             {{ Form::label('username', 'Username:') }}

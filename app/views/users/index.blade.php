@@ -2,14 +2,15 @@
 
 @section('main')
     <h1>All Users</h1>
-    <p>{{ link_to_route('users.create', 'Add new user') }}</p>
+    <!--p>{{ link_to_route('users.create', 'Add new user') }}</p-->
 @if ($users->count())
 <table class="table table-striped table-bordered users-table">
     <thead>
     <tr>
-        <th>Username</th>
-        <th>Email</th>
-        <th>Roles</th>
+        <th>Имя</th>
+        <th>Эл.адрес</th>
+        <th>Роль</th>
+        <th>Действия</th>
     </tr>
     </thead>
     <tbody>

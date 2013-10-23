@@ -78,7 +78,7 @@ class UserController extends BaseController {
 	public function show($id)
 	{
 		$user = $this->user->findOrFail($id);
-        return View::make('users.show', compact($user));
+        return View::make('users.show', compact('user'));
 	}
 
 	/**
@@ -89,8 +89,8 @@ class UserController extends BaseController {
 	 */
 	public function edit($id)
 	{
-		$user = $this->user->findOrFail($id);
-        return View::make('users.edit', compact($user));
+		$user = $this->user->find($id);
+        return View::make('users.edit', compact('user'));
 	}
 
 	/**

@@ -1,13 +1,7 @@
-/**
- * Created by PhpStorm.
- * User: andrem
- * Date: 23.10.13
- * Time: 11:35
- */
 @extends('layouts.scaffold')
 @section('main')
 <h1>Пользователи</h1>
-<p>{{ link_to_route('users.index', 'Return to all users') }}</p>
+<p>{{ link_to_route('users.index', 'Показать всех') }}</p>
 <table class="table table-striped table-bordered">
     <thead>
     <tr>

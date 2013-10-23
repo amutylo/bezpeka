@@ -46,7 +46,6 @@ Route::group(array('before' => 'admin_role_only'), function(){
     Route::get('dashboard', array('as' => 'login.dashboard', 'uses' => 'LoginController@dashboard'));
 
     Route::resource('roles', 'RolesController');
-    Route::resource('users', 'UsersController');
 
     Route::resource('users', 'UserController');
 
