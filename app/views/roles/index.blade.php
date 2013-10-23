@@ -2,7 +2,7 @@
 
 @section('main')
 
-<h1>All Roles</h1>
+<h1>Все роли</h1>
 
 <p>{{ link_to_route('roles.create', 'Add new role') }}</p>
 
@@ -10,15 +10,24 @@
 	<table class="table table-striped table-bordered">
 		<thead>
 			<tr>
-				<th>Role</th>
+                <th>Роль</th>
+                <th>Описание</th>
+				<th>Действия</th>
 			</tr>
 		</thead>
 
 		<tbody>
 			@foreach ($roles as $role)
 				<tr>
-					<td>{{{ $role->role }}}</td>
-                    <td>{{ link_to_route('roles.edit', 'Edit', array($role->id), array('class' => 'btn btn-info')) }}</td>
+					<td>
+                        {{{ $role->role }}}
+                    </td>
+                    <td>
+                        <span class="badge">{{{ $role->description }}}</span>
+                    </td>
+                    <td>
+                        {{ link_to_route('roles.edit', 'Edit', array($role->id), array('class' => 'btn btn-info')) }}
+                    </td>
                     <td>
                         {{ Form::open(array('method' => 'DELETE', 'route' => array('roles.destroy', $role->id))) }}
                             {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}

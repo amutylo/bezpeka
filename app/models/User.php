@@ -19,6 +19,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 */
 	protected $hidden = array('password');
 
+
 	/**
 	 * Get the unique identifier for the user.
 	 *
@@ -51,6 +52,16 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 
 	public function roles(){
 		return $this->belongsToMany('Role');
+	}
+
+	public function isAdmin(){
+		$adminRole = Role::whereRole('admin')->first();
+		return $this->roles->contains($adminRole->id);
+	}
+
+	public function isRegular(){
+		$roles = array_filter($this->roles->toArray());
+		return empty($roles);
 	}
 
 }

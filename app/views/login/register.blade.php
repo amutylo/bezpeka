@@ -17,10 +17,10 @@
     </li>
     <li>
         {{ Form::label('password', 'Password:') }}
-        {{ Form::text('password') }}
+        {{ Form::password('password') }}
     </li>
     <li>
-        {{ Form::submit('Submit', array('class' => 'btn btn-info'))}}
+        {{ Form::submit('Зарегистрировать', array('class' => 'btn btn-info'))}}
     </li>
 </ul>
 

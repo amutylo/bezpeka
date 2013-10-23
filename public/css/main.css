@@ -1,0 +1,39 @@
+/* Так как у нас статичное верхнее меню - сделаем отступ от верха */
+body
+{
+    padding-top: 60px;
+}
+
+/* Для ссылок, на которых не нужно подчеркивание */
+.no_decoration:hover,
+.no_decoration:focus
+{
+    text-decoration: none;
+}
+
+/* Выравнивание по высоте всех скидок вне зависимости от количества текста / изображения */
+.thumbnail .image-container
+{
+    width: 100%;
+    max-height: 200px;
+    overflow:
+    hidden;
+}
+
+.thumbnail .image-container img
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.thumbnail h3
+{
+    height: 40px;
+    overflow: hidden;
+}
+
+.thumbnail .description
+{
+    height: 100px;
+    overflow: hidden;
+}

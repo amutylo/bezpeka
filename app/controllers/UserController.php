@@ -13,18 +13,19 @@ class UserController extends BaseController {
 	}
 
 	/**
-	 * Display a listing of the resource.
+	 * Display a listing of the users.
 	 *
 	 * @return Response
 	 */
 	public function index()
 	{
 		$users = $this->user->all();
-        return View::make('users.index', compact($users));
+
+        return View::make('users.index', compact('users'));
 	}
 
 	/**
-	 * Show the form for creating a new resource.
+	 * Show the form for creating a new user.
 	 *
 	 * @return Response
 	 */
@@ -40,11 +41,36 @@ class UserController extends BaseController {
 	 */
 	public function store()
 	{
-		//
+		$rules = array(
+					'email' => 'required|email|unique:users,email',
+					'password' => 'required|alpha_num|between:4,50',
+					'username' => 'required|alpha_num|between:2,20|unique:users,username'
+				);
+
+		$validator = Validator::make(Input::all(), $rules);
+
+		if($validator->fails()){
+			return Redirect::back()->withInput()->withErrors($validator);
+		}
+
+		$user = new User;
+		$user->email = Input::get('email');
+		$user->username = Input::get('username');
+		$user->password = Hash::make(Input::get('password'));
+		$user->save();
+
+		//шлем ему мыло
+		Mail::send('emails.admin_create_user', array('username' => $user->username, 'siteName' => 'BEZPEKA SITE', 'password' => Input::get('password')), function($message) use ($user)
+		{
+			$message->to($user->email, $user->username)->subject('Добро пожаловать на сайт!');
+		});
+
+
+		return Redirect::home()->with('message', 'Thank you for registration, now you can comment on offers!');
 	}
 
 	/**
-	 * Display the specified resource.
+	 * Display the specified user.
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -56,7 +82,7 @@ class UserController extends BaseController {
 	}
 
 	/**
-	 * Show the form for editing the specified resource.
+	 * Show the form for editing the specified user.
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -68,7 +94,7 @@ class UserController extends BaseController {
 	}
 
 	/**
-	 * Update the specified resource in storage.
+	 * Update the specified user in storage.
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -78,20 +104,24 @@ class UserController extends BaseController {
 		$user = $this->user->findOrFail($id);
 		$roles = array();
 		foreach (explode(', ', Input::get('roles')) as $role_name) {
-			# code...
+			if($role = Role::where('role', '=', $role_name)->first()){
+                $roles[] = $role->id;
+            }
 		}
-		return View::make('users.show', compact($user));
+        $user->roles()->sync($roles);
+		return Redirect::route('users.show', $id);
 	}
 
 	/**
-	 * Remove the specified resource from storage.
+	 * Remove the specified user from storage.
 	 *
 	 * @param  int  $id
 	 * @return Response
 	 */
 	public function destroy($id)
 	{
-		//
+		$this->user->findOrFail($id)->delete();
+        return Redirect::route('users.index');
 	}
 
 }
