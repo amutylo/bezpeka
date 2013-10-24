@@ -86,3 +86,6 @@ Route::filter('regular_user', function(){
 
 
 
+
+
+Route::resource('catalogs', 'CatalogsController');

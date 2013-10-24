@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"site",
+				"siteName"
+			],
+			[
+				"ad",
+				"admin"
+			],
+			[
+				"empty",
+				"empty()"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
 				"Input",
 				"Input	Laravel: Input::get()"
 			],
@@ -100,10 +124,6 @@
 				"flash"
 			],
 			[
-				"user",
-				"username"
-			],
-			[
 				"res",
 				"result"
 			],
@@ -164,10 +184,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/scaffold.blade.php",
+			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 1268,
+				"buffer_size": 2735,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,72 +195,16 @@
 			"file": "app/controllers/UserController.php",
 			"settings":
 			{
-				"buffer_size": 1601,
+				"buffer_size": 2724,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/CatalogController.php",
+			"file": "app/views/layouts/scaffold.blade.php",
 			"settings":
 			{
-				"buffer_size": 1133,
+				"buffer_size": 3019,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes.php",
-			"settings":
-			{
-				"buffer_size": 1621,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/home/about_us.blade.php",
-			"settings":
-			{
-				"buffer_size": 18,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/HomeController.php",
-			"settings":
-			{
-				"buffer_size": 1480,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/User.php",
-			"settings":
-			{
-				"buffer_size": 912,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/catalog/index.blade.php",
-			"settings":
-			{
-				"buffer_size": 23,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/LoginController.php",
-			"settings":
-			{
-				"buffer_size": 2394,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/home/index.blade.php",
-			"settings":
-			{
-				"buffer_size": 75,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -280,18 +244,47 @@
 	},
 	"file_history":
 	[
-		"/C/www/projects/bezpeka/app/views/partials/about-us.blade.php",
-		"/C/www/projects/bezpeka/app/controllers/HomeController.php",
-		"/C/www/projects/bezpeka/app/views/main.blade.php",
+		"/C/www/projects/bezpeka/app/views/users/show.blade.php",
+		"/C/www/projects/bezpeka/app/views/emails/admin_create_user.blade.php",
+		"/C/www/projects/bezpeka/app/views/users/index.blade.php",
+		"/C/www/projects/bezpeka/app/views/users/edit.blade.php",
+		"/C/www/projects/bezpeka/app/views/login/index.blade.php",
+		"/C/www/projects/bezpeka/app/controllers/LoginController.php",
+		"/C/www/projects/bezpeka/app/controllers/RolesController.php",
+		"/C/www/projects/bezpeka/app/views/emails/welcome.blade.php",
+		"/C/www/projects/bezpeka/app/views/users/create.blade.php",
+		"/C/www/projects/bezpeka/app/models/User.php",
 		"/C/www/projects/bezpeka/app/models/Role.php",
+		"/C/www/projects/bezpeka/app/views/roles/index.blade.php",
+		"/C/www/projects/bezpeka/app/views/login/register.blade.php",
+		"/C/www/projects/bezpeka/app/views/layouts/scaffold.blade.php",
+		"/C/www/projects/bezpeka/app/storage/logs/log-apache2handler-2013-10-23.txt",
+		"/C/www/projects/bezpeka/app/storage/logs/log-cli-2013-10-23.txt",
+		"/C/www/projects/bezpeka/app/views/home/index.blade.php",
+		"/C/www/projects/bezpeka/app/views/layouts/main.blade.php",
+		"/C/www/projects/bezpeka/app/views/Auth/remind.blade.php",
+		"/C/www/projects/bezpeka/app/views/Auth/reset.blade.php",
+		"/C/www/projects/bezpeka/public/css/main.css",
+		"/C/www/projects/bezpeka/app/views/layouts/ьфштюидфвуюзрз",
+		"/C/www/projects/bezpeka/app/config/mail.php",
+		"/C/www/projects/bezpeka/app/views/фгер",
+		"/C/www/projects/bezpeka/app/database/seeds/DatabaseSeeder.php",
+		"/C/www/projects/bezpeka/app/database/seeds/UserProfileTableSeeder.php",
+		"/C/www/projects/bezpeka/app/database/seeds/RoleUserTableSeeder.php",
+		"/C/www/projects/bezpeka/app/database/seeds/RolesTableSeeder.php",
+		"/C/www/projects/bezpeka/app/database/seeds/UsersTableSeeder.php",
+		"/C/Users/andrem/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/www/projects/bezpeka/app/controllers/UserController.php",
+		"/C/www/projects/bezpeka/app/views/catalog/index.blade.php",
+		"/C/www/projects/bezpeka/app/controllers/HomeController.php",
+		"/C/www/projects/bezpeka/app/views/home/about_us.blade.php",
+		"/C/www/projects/bezpeka/app/controllers/CatalogController.php",
 		"/C/www/projects/bezpeka/app/routes.php",
+		"/C/www/projects/bezpeka/app/views/partials/about-us.blade.php",
+		"/C/www/projects/bezpeka/app/views/main.blade.php",
 		"/C/www/projects/bezpeka/app/views/login/dashboard.blade.php",
 		"/C/www/projects/bezpeka/app/views/partials/errors.blade.php",
 		"/C/www/projects/bezpeka/app/views/partials",
-		"/C/www/projects/bezpeka/app/views/login/register.blade.php",
-		"/C/www/projects/bezpeka/app/views/login/index.blade.php",
-		"/C/www/projects/bezpeka/app/controllers/LoginController.php",
-		"/C/www/projects/bezpeka/app/views/layouts/scaffold.blade.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_22_085658_add_foreign_user_id_to_users_profile_table.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_22_090506_add_foreign_key_to_address_table.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_22_083246_create_roles_table.php",
@@ -302,7 +295,6 @@
 		"/C/www/projects/bezpeka/composer.json",
 		"/C/www/projects/bezpeka/app/config/app.php",
 		"/C/www/projects/bezpeka/app/config/database.php",
-		"/C/www/projects/bezpeka/app/database/seeds/DatabaseSeeder.php",
 		"/C/www/projects/bezpeka/app/database/seeds/UserSeeder.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_143346_add_active_column_to_users_table.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_135532_add_foreign_id_to_userprofile_table.php",
@@ -311,9 +303,7 @@
 		"/C/www/projects/bezpeka/vendor/autoload.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_01_122106_create_user_profile_table.php",
 		"/C/www/projects/bezpeka/app/tests/controllers/RolesTest.php",
-		"/C/www/projects/bezpeka/app/database/seeds/RolesTableSeeder.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_130408_create_roles_table.php",
-		"/C/www/projects/bezpeka/app/controllers/RolesController.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_09_05_131144_CreateUserTable.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_10_21_130053_create_role_user_table.php",
 		"/C/www/projects/bezpeka/app/database/migrations/2013_09_30_140124_create_products_attributes_table.php",
@@ -351,7 +341,6 @@
 		"/C/www/projects/clickfuel-0815.lc/js/_ajax_requests_js.js",
 		"/C/www/projects/bezpeka/app/views/home.blade.php",
 		"/C/www/projects/bezpeka/app/storage/logs/log-apache2handler-2013-09-20.txt",
-		"/C/www/projects/bezpeka/app/models/User.php",
 		"/C/www/projects/clickfuel.lc/system/application/views/campaigns_email_tab.php",
 		"/C/Users/andrem/Downloads/lamarkMediaData.txt",
 		"/C/www/projects/bezpeka/app/views/partials/carousel.blade.php",
@@ -377,37 +366,12 @@
 		"/C/Users/andrem/Downloads/clickfuel_code.php",
 		"/C/Users/andrem/Downloads/clickfuel/LANMARK PROVIDER explanation.txt",
 		"/C/Users/andrem/Downloads/clickfuel/code.php",
-		"/C/Users/andrem/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/andrem/AppData/Roaming/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Sublime Text.cheatsheet",
 		"/C/www/projects/bezpeka/artisan",
 		"/C/www/projects/bezpeka/server.php",
 		"/C/Users/andrem/AppData/Roaming/Sublime Text 3/Packages/StatusBarExtension/StatusBarExtension.sublime-settings",
 		"/C/Users/andrem/Downloads/tutorial-laravel-4-authentication-master/app/database/seeds/UserSeeder.php",
-		"/C/www/projects/bezpeka/app/config/auth.php",
-		"/C/www/projects/bezpeka/app/database/seeds/ProductsTableSeeder.php",
-		"/C/Users/andrem/AppData/Local/Temp/WPDNSE/{000003A2-0001-0001-0000-000000000000}/lastTopAppId.txt",
-		"/C/Users/andrem/Downloads/Laravel-4-Bootstrap-Starter-Site-master/app/controllers/BlogController.php",
-		"/C/Users/andrem/Downloads/Laravel-4-Bootstrap-Starter-Site-master/app/controllers/BaseController.php",
-		"/C/www/projects/clickfuel.lc/xrms/storage/modules/sm_oads_my.php",
-		"/C/www/projects/clickfuel.lc/system/logs/oads-2013-09-04.php",
-		"/C/www/projects/clickfuel.lc/xrms/storage/modules/sm_oads.php",
-		"/C/Users/andrem/Downloads/snippets/из даты вычесть 1 день.php",
-		"/C/Users/andrem/Downloads/remove feed.sql",
-		"/C/www/projects/clickfuel.lc/system/application/controllers/feeds.php",
-		"/C/www/projects/clickfuel.lc/system/logs/profiler--feeds-urgent_run-get_provider_data-display_open_adstream-log-2013-09-04.php",
-		"/C/www/projects/clickfuel.lc/system/logs/debug_log_Feeds-2013-09-04.php",
-		"/C/www/projects/clickfuel.lc/system/logs/oads-2013-09-03.php",
-		"/D/YandexDisk/Рейтинг банков Квестора.txt",
-		"/C/www/projects/clickfuel.lc/system/logs/dates_period-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/system/logs/profiler--feeds-urgent_run-get_provider_data-display_open_adstream-log-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/system/logs/profiler--feeds-get_provider_data-display_open_adstream-log-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/system/logs/debug_log-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/system/logs/log-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/system/logs/debug_log_agency-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/xrms/storage/modules/sm_lamark.php",
-		"/C/www/projects/clickfuel.lc/system/logs/feeds-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/system/logs/debug_log__Client_setupsave_credentials-2013-09-03.php",
-		"/C/www/projects/clickfuel.lc/system/application/config/clickfuel.php"
+		"/C/www/projects/bezpeka/app/config/auth.php"
 	],
 	"find":
 	{
@@ -473,24 +437,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/scaffold.blade.php",
+					"file": "app/routes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1268,
+						"buffer_size": 2735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								809,
-								809
+								1673,
+								1673
 							]
 						],
 						"settings":
@@ -498,14 +462,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -514,36 +490,25 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close"
 							],
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -554,15 +519,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1601,
+						"buffer_size": 2724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1393,
-								1384
+								1969,
+								1969
 							]
 						],
 						"settings":
@@ -570,86 +535,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1518.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controllers/CatalogController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								829,
-								829
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -658,26 +563,14 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -693,20 +586,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/routes.php",
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "app/views/layouts/scaffold.blade.php",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1621,
+						"buffer_size": 3019,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								859,
-								859
+								1964,
+								1964
 							]
 						],
 						"settings":
@@ -714,87 +607,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 207.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/home/about_us.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 18,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18,
-								18
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -803,61 +635,6 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/controllers/HomeController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1480,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								379,
-								379
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -866,330 +643,16 @@
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close"
 							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 138.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/models/User.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 912,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								906,
-								906
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 690.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/views/catalog/index.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 23,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/controllers/LoginController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2394,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2388,
-								2388
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2415.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/views/home/index.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 75,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close"
-							],
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1026.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1285,7 +748,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 247.0,
+	"side_bar_width": 167.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
