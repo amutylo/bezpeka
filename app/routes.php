@@ -14,7 +14,8 @@
 Route::get('/', array('as' => 'home', 'uses' => 'HomeController@index'));
 
 
-Route::get('catalog', array('as' => 'catalog', 'uses' => 'CatalogController@index'));
+// Route::get('catalog', array('as' => 'catalog', 'uses' => 'CatalogController@index'));
+Route::resource('catalogs', 'CatalogsController');
 
 Route::get('about_us', array('as' => 'about_us', 'uses' => 'HomeController@about_us'));
 

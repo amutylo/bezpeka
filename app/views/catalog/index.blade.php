@@ -1,1 +1,0 @@
-catalog index.blade.php

@@ -9,7 +9,7 @@ class CatalogsTableSeeder extends Seeder {
 
 		$catalogs = array(
                         array(
-                            'c_name' => 'аудио',
+                            'catalog' => 'аудио',
                             'c_description' => 'аудио каталог',
                             'active' => 1,
                             'updated_at' => DB::raw('NOW()'),
@@ -17,7 +17,7 @@ class CatalogsTableSeeder extends Seeder {
                         ),
 
                         array(
-                            'c_name' => 'video',
+                            'catalog' => 'video',
                             'c_description' => 'видео каталог',
                             'active' => 1,
                             'updated_at' => DB::raw('NOW()'),

@@ -25,12 +25,6 @@
 					<li>{{ link_to_route('home', 'Главная') }}</li>
 				@endif
 
-				@if(Request::path() === 'catalog')
-					<li class="active">{{ link_to_route('catalog', 'Каталог') }}</li>
-				@else
-					<li>{{ link_to_route('catalog', 'Каталог') }}</li>
-				@endif
-
 				@if(Request::path() === 'about_us')
 					<li class="active">{{link_to_route('about_us', 'О нас') }}</li>
 				@else
@@ -48,11 +42,6 @@
 					<li>{{ link_to_route('home', 'Главная') }}</li>
 				@endif
 
-				@if(Request::path() === 'catalog')
-					<li class="active">{{ link_to_route('catalog', 'Каталог') }}</li>
-				@else
-					<li>{{ link_to_route('catalog', 'Каталог') }}</li>
-				@endif
 
 				@if(Request::path() === 'about_us')
 					<li class="active">{{link_to_route('about_us', 'О нас') }}</li>
@@ -72,6 +61,12 @@
 						<li class="active">{{ link_to_route('roles.index', 'Roles') }}</li>
 					@else
 						<li>{{ link_to_route('roles.index', 'Roles') }}</li>
+					@endif
+
+					@if(Request::path() === 'catalogs')
+						<li class="active">{{ link_to_route('catalogs.index', 'Catalogs') }}</li>
+					@else
+						<li>{{ link_to_route('catalogs.index', 'Catalogs') }}</li>
 					@endif
 
 					@if(Request::path() === 'users')
